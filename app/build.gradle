@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.assassin.rongstudy"
+        minSdkVersion 17
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    sourceSets
+            {
+                main{
+                    jni.srcDirs=[]
+                    jniLibs.srcDirs =['src/main/libs']
+                }
+            }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    testCompile 'junit:junit:4.12'
+    compile project(':IMKit')
+
+    //调式数据库 facebook出品(正式上线的时候，去掉即可)
+    compile 'com.facebook.stetho:stetho:1.5.0'
+    //调式 网络请求监测
+    compile 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+    //okgo
+    compile 'com.lzy.net:okgo:2.1.4'
+}
