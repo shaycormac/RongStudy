@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RongStudy</string>
+
+    <string name="de_dialog_item_message_delete">删除消息</string>
 </resources>

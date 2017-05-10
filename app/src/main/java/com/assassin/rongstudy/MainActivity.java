@@ -2,6 +2,8 @@ package com.assassin.rongstudy;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 
 import com.assassin.rongstudy.util.RongUtil;
 import com.lzy.okgo.OkGo;
@@ -17,6 +19,7 @@ import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
 
+    private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) 
     {
@@ -71,6 +74,13 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-                
+        button = (Button) findViewById(R.id.btnStartChart);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) 
+            {
+                RongUtil.startPrivateChat(MainActivity.this, "9527", "花花");    
+            }
+        });        
     }
 }
