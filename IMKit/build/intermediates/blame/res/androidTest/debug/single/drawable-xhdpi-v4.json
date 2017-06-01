@@ -8,12 +8,12 @@
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ext_plugin_image_pressed.png"
     },
     {
-        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_complete.png",
-        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_complete.png"
-    },
-    {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_receive_voice_two.png",
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_receive_voice_two.png"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_complete.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_complete.png"
     },
     {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f6bf.png",
@@ -880,12 +880,12 @@
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_conversation_list_empty.png"
     },
     {
-        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_cs_group_cancel_normal.png",
-        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_cs_group_cancel_normal.png"
-    },
-    {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f631.png",
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f631.png"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_cs_group_cancel_normal.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_cs_group_cancel_normal.png"
     },
     {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_cs_group_ok_pressed.png",
@@ -1192,12 +1192,12 @@
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ic_files_pressed.png"
     },
     {
-        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f623.png",
-        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f623.png"
-    },
-    {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_image_default.png",
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_image_default.png"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f623.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f623.png"
     },
     {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f680.png",

@@ -76,12 +76,12 @@
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_list.xml"
     },
     {
-        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_image_message.xml",
-        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\layout\\rc_item_image_message.xml"
-    },
-    {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_ext_sub_menu_item.xml",
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\layout\\rc_ext_sub_menu_item.xml"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_image_message.xml",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\layout\\rc_item_image_message.xml"
     },
     {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_cs_leave_message.xml",
@@ -104,16 +104,16 @@
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\layout\\rc_item_public_service_multi_rich_content_message.xml"
     },
     {
-        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_information_notification_message.xml",
-        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\layout\\rc_item_information_notification_message.xml"
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_conversation_member.xml",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\layout\\rc_item_conversation_member.xml"
     },
     {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_app_service_conversation.xml",
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\layout\\rc_item_app_service_conversation.xml"
     },
     {
-        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_conversation_member.xml",
-        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\layout\\rc_item_conversation_member.xml"
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_information_notification_message.xml",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\layout\\rc_item_information_notification_message.xml"
     },
     {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\layout\\rc_item_public_service_search.xml",

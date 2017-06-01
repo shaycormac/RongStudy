@@ -12,12 +12,12 @@
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable\\rc_pb_file_download_progress.xml"
     },
     {
-        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rc_cs_group_dialog_ok_selector.xml",
-        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable\\rc_cs_group_dialog_ok_selector.xml"
-    },
-    {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rc_cs_list_divider_style.xml",
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable\\rc_cs_list_divider_style.xml"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rc_cs_group_dialog_ok_selector.xml",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable\\rc_cs_group_dialog_ok_selector.xml"
     },
     {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\release\\drawable\\rc_item_list_selector.xml",

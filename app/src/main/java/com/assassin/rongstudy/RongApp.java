@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 
 import com.assassin.rongstudy.util.VolleyLog;
+import com.assassin.rongstudy.util.rong.RongEvent;
 import com.assassin.rongstudy.util.rong.message.AgreedFriendMessage;
 import com.assassin.rongstudy.util.rong.message.ContactNotificationMessageProvider;
 import com.facebook.stetho.Stetho;
@@ -42,8 +43,16 @@ public class RongApp extends Application
         //集成融云
         RongIM.init(this);
         //注册
-        RongIM.registerMessageType(AgreedFriendMessage.class);
-        RongIM.registerMessageTemplate(new ContactNotificationMessageProvider());
+        RongEvent.init(this);
+        //注册
+        try {
+            RongIM.registerMessageType(AgreedFriendMessage.class);
+            RongIM.registerMessageTemplate(new ContactNotificationMessageProvider());  
+        }catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+       
        // RongIM.registerMessageTemplate(new RealTimeLocationMessageProvider());
         
     }

@@ -40,32 +40,32 @@
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f64a.png"
     },
     {
-        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_voice_input_toggle_hover.9.png",
-        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_voice_input_toggle_hover.9.png"
-    },
-    {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ac_sd_card_icon.png",
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ac_sd_card_icon.png"
     },
     {
-        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_cs_admin_hover.png",
-        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_cs_admin_hover.png"
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_voice_input_toggle_hover.9.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_voice_input_toggle_hover.9.png"
     },
     {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ic_voice_receive_play1.png",
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_ic_voice_receive_play1.png"
     },
     {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_cs_admin_hover.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_cs_admin_hover.png"
+    },
+    {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_rt_loc_myself.png",
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_rt_loc_myself.png"
     },
     {
-        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_voide_message_unread.png",
-        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_voide_message_unread.png"
-    },
-    {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_send_voice_three.png",
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_send_voice_three.png"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_voide_message_unread.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_voide_message_unread.png"
     },
     {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_btn_pub_service_follow_normal.png",
@@ -92,20 +92,20 @@
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_complete.png"
     },
     {
-        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_voice_unread.png",
-        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_voice_unread.png"
-    },
-    {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_emotion_toggle_hover.png",
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_emotion_toggle_hover.png"
     },
     {
-        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_receive_voice_two.png",
-        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_receive_voice_two.png"
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_voice_unread.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_voice_unread.png"
     },
     {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_select_check_sel.png",
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_select_check_sel.png"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_receive_voice_two.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_receive_voice_two.png"
     },
     {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_cs_delete.png",
@@ -116,12 +116,12 @@
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\u1f4a1.png"
     },
     {
-        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_btn_open_file_normal.png",
-        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_btn_open_file_normal.png"
-    },
-    {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_select_check_nor.png",
         "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_select_check_nor.png"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_btn_open_file_normal.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\src\\main\\res\\drawable-xhdpi\\rc_btn_open_file_normal.png"
     },
     {
         "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rc_ext_plugin_toggle.png",
