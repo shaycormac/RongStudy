@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.assassin.rongstudy">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -105,6 +106,7 @@
         <service
             android:name="io.rong.push.PushService"
             android:exported="false"
+            tools:replace="android:exported"
             android:process="io.rong.push">  <!-- push进程，可以改名 -->
         </service>
 
