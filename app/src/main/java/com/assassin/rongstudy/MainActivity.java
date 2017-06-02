@@ -7,6 +7,7 @@ import android.widget.Button;
 
 import com.assassin.rongstudy.util.BitMap2File;
 import com.assassin.rongstudy.util.RongUtil;
+import com.assassin.rongstudy.util.VolleyLog;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.StringCallback;
 import com.lzy.okgo.model.HttpHeaders;
@@ -70,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                     String token1 = jsonObject1.getString("token");
                     String userId = jsonObject1.getString("userId");
                 
-                    RongUtil.connectRong(token1, null, null);
+                    RongUtil.connectRong(token1, "谢伊寇马克", "https://pic.pocketuni.com.cn/data/sys_pic/entry/xy_grow.png?v=5.9.01493347234");
                 } catch (JSONException e) 
                 {
                     e.printStackTrace();
@@ -112,6 +113,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        BitMap2File.getFilePath(this, "nima");
+       // BitMap2File.getFilePath(this, "nima");
+        new Thread(new Runnable() {
+            @Override
+            public void run() 
+            {
+                String path;
+                for (int i = 0; i <10 ; i++) 
+                {
+                   path= BitMap2File.INSTANCE.getFilePath(MainActivity.this, "20000"+i,"张三"+i);
+                    VolleyLog.d("得到的路径为：%s", path);
+                } 
+            }
+        }).start();
     }
 }

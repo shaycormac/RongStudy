@@ -2,11 +2,13 @@ package com.assassin.rongstudy.util.rong;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v4.app.FragmentActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 
+import com.assassin.rongstudy.util.BitMap2File;
 import com.assassin.rongstudy.util.RongUtil;
 import com.assassin.rongstudy.util.ToastUtil;
 import com.assassin.rongstudy.util.VolleyLog;
@@ -319,6 +321,8 @@ public  class RongEvent implements RongIMClient.OnReceiveMessageListener,RongIM.
     {
         if (TextUtils.isEmpty(userId))
             return null;
+        UserInfo userInfo = new UserInfo(userId, "李四", Uri.parse(BitMap2File.INSTANCE.getFilePath(context, userId, "李四")));
+        return userInfo;
    //todo 获取用户的信息（可以设计从数据库中取，没有的话再请求网络）
        /* CacheDbHelper mCacheDbHelper = DBManager.getInstance().getCacheDbHelper();
         RongUserInfo mRongUserInfo = mCacheDbHelper.queryRongUserInfo(userId);
@@ -335,7 +339,6 @@ public  class RongEvent implements RongIMClient.OnReceiveMessageListener,RongIM.
             return null;
         } else
             return new UserInfo(mRongUserInfo.userId, mRongUserInfo.name, Uri.parse(mRongUserInfo.portraitUri));*/
-        return null;
     }
 
     /**

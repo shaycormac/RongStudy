@@ -3,4 +3,15 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+
+    <!--通讯录头像的几种颜色-->
+    <color name="contact_deep_orange">#C6A779</color>
+    <color name="contact_light_green">#AFB78C</color>
+    <color name="contact_deep_green">#8CB7A9</color>
+    <color name="contact_deep_blue">#8CA8B7</color>
+    <color name="contact_light_orange">#E7AB84</color>
+    <color name="contact_deep_red">#DF7D7D</color>
+    <color name="contact_light_grey">#AFAFAF</color>
+    <color name="contact_light_blue">#94C6D6</color>
 </resources>
