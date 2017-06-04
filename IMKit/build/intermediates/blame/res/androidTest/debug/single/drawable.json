@@ -16,6 +16,7 @@
         "source": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_public_service_unfollow_selector.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_btn_voice.xml",
         "source": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_btn_voice.xml"
     },
@@ -26,6 +27,18 @@
     {
         "merged": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_ic_files_selector.xml",
         "source": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_ic_files_selector.xml"
+=======
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_corner_popup_dialog_style.xml",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_corner_popup_dialog_style.xml"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_cs_group_dialog_ok_selector.xml",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_cs_group_dialog_ok_selector.xml"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_an_voice_receive.xml",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable\\rc_an_voice_receive.xml"
+>>>>>>> 6a75c2072193ad5db24f10e53214f42f8ab095eb
     },
     {
         "merged": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\rc_notification_connecting_animated.xml",

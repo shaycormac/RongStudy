@@ -8,6 +8,7 @@
         "source": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f601.png"
     },
     {
+<<<<<<< HEAD
         "merged": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f4de.png",
         "source": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f4de.png"
     },
@@ -18,6 +19,18 @@
     {
         "merged": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u26c4.png",
         "source": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u26c4.png"
+=======
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_receive_voice_two.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_receive_voice_two.png"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_complete.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_complete.png"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f6bf.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f6bf.png"
+>>>>>>> 6a75c2072193ad5db24f10e53214f42f8ab095eb
     },
     {
         "merged": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ed_pub_service_search_hover.9.png",
@@ -880,6 +893,7 @@
         "source": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_file_icon_cancel.png"
     },
     {
+<<<<<<< HEAD
         "merged": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_read_receipt_request_hover.png",
         "source": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_read_receipt_request_hover.png"
     },
@@ -890,6 +904,18 @@
     {
         "merged": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ext_realtime_default_avatar.png",
         "source": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_ext_realtime_default_avatar.png"
+=======
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f631.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f631.png"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_cs_group_cancel_normal.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_cs_group_cancel_normal.png"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_cs_group_ok_pressed.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_cs_group_ok_pressed.png"
+>>>>>>> 6a75c2072193ad5db24f10e53214f42f8ab095eb
     },
     {
         "merged": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_real_time_location_hide.png",
@@ -1192,6 +1218,7 @@
         "source": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f605.png"
     },
     {
+<<<<<<< HEAD
         "merged": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_icon_admin_hover.png",
         "source": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_icon_admin_hover.png"
     },
@@ -1202,6 +1229,18 @@
     {
         "merged": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_input_sub_menu_bg.9.png",
         "source": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_input_sub_menu_bg.9.png"
+=======
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_image_default.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\rc_image_default.png"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f623.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f623.png"
+    },
+    {
+        "merged": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\u1f680.png",
+        "source": "E:\\AssassinCreed\\RongStudy\\IMKit\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\u1f680.png"
+>>>>>>> 6a75c2072193ad5db24f10e53214f42f8ab095eb
     },
     {
         "merged": "H:\\Edward\\RongStudy\\IMKit\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\rc_ext_indicator_hover.png",

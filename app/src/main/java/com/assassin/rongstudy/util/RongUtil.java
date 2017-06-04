@@ -37,7 +37,7 @@ public class RongUtil
             public void onTokenIncorrect() 
             {
                 VolleyLog.d("%s %s", TAG, "Connect Token 失效的状态处理，需要重新获取 Token");
-                //todo 到登录页面，重新登录逻辑
+                //todo 重新请求融云的token接口，获取数据
 
             }
 

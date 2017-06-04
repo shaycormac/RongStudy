@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.assassin.rongstudy.R;
-//会话 Fragment 跟会话列表是完全一致的，您可以用同样的方式快速的配置好。
+//会话列表
 public class ConversationListActivity extends AppCompatActivity {
 
     @Override

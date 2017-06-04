@@ -5,7 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.assassin.rongstudy.util.BitMap2File;
 import com.assassin.rongstudy.util.RongUtil;
+import com.assassin.rongstudy.util.VolleyLog;
 import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.StringCallback;
 import com.lzy.okgo.model.HttpHeaders;
@@ -20,6 +22,9 @@ import okhttp3.Response;
 public class MainActivity extends AppCompatActivity {
 
     private Button button;
+    private Button button1;
+    private Button button2;
+    private Button button3;
     @Override
     protected void onCreate(Bundle savedInstanceState) 
     {
@@ -28,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         HttpParams params = new HttpParams();
         params.put("Account","dingweichen");
         params.put("Password", "Iris198925~");
-        //请求
+        //请求(先从后台获取一个token,然后通过这个token传给融云)
         OkGo.post("http://172.16.55.29:9527/api/gm/ERP_SMSAPI/LogOn")
                 .tag(this)
                 .headers(new HttpHeaders("Content-Type","application/x-www-form-urlencoded"))
@@ -66,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                     String token1 = jsonObject1.getString("token");
                     String userId = jsonObject1.getString("userId");
                 
-                    RongUtil.connectRong(token1, null, null);
+                    RongUtil.connectRong(token1, "谢伊寇马克", "https://pic.pocketuni.com.cn/data/sys_pic/entry/xy_grow.png?v=5.9.01493347234");
                 } catch (JSONException e) 
                 {
                     e.printStackTrace();
@@ -75,6 +80,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         button = (Button) findViewById(R.id.btnStartChart);
+        button1 = (Button) findViewById(R.id.btnStartChartRoom);
+        button2 = (Button) findViewById(R.id.btnStartServer);
+        button3 = (Button) findViewById(R.id.btnStartGroup);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) 
@@ -82,5 +90,41 @@ public class MainActivity extends AppCompatActivity {
                 RongUtil.startPrivateChat(MainActivity.this, "9527", "花花");    
             }
         });        
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) 
+            {
+                RongUtil.startChatroom(MainActivity.this,"9527","我是标题");
+               // RongUtil.startPrivateChat(MainActivity.this, "9527", "花花");    
+            }
+        });        
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) 
+            {
+                RongUtil.startPublicService(MainActivity.this,"9527","我是标题");
+            }
+        });        
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) 
+            {
+                RongUtil.startGroup(MainActivity.this,"9527","我是标题");
+            }
+        });
+
+       // BitMap2File.getFilePath(this, "nima");
+        new Thread(new Runnable() {
+            @Override
+            public void run() 
+            {
+                String path;
+                for (int i = 0; i <10 ; i++) 
+                {
+                   path= BitMap2File.INSTANCE.getFilePath(MainActivity.this, "20000"+i,"张三"+i);
+                    VolleyLog.d("得到的路径为：%s", path);
+                } 
+            }
+        }).start();
     }
 }
