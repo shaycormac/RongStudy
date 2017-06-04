@@ -51,3 +51,5 @@ IMLib/build/intermediates/lint/
 IMLib/build/intermediates/manifest/tmp/
 IMLib/build/intermediates/rs/
 IMLib/build/intermediates/shaders/
+IMKit/build/intermediates/incremental/mergeDebugResources/merged.dir/
+IMKit/build/intermediates/res/merged/debug/
