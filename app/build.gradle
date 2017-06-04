@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+//6.0权限
+apply plugin: 'com.neenbedankt.android-apt'
 
 android {
     compileSdkVersion 25
@@ -6,7 +8,7 @@ android {
     defaultConfig {
         applicationId "com.assassin.rongstudy"
         minSdkVersion 17
-        targetSdkVersion 22
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -41,4 +43,7 @@ dependencies {
     compile 'com.facebook.stetho:stetho-okhttp3:1.5.0'
     //okgo
     compile 'com.lzy.net:okgo:2.1.4'
+    //6.0权限
+    apt 'com.zhy:mpermission-compiler:1.0.0'
+    compile 'com.zhy:mpermission-api:1.0.0'
 }

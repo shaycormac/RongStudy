@@ -1,9 +1,13 @@
 package com.assassin.rongstudy;
 
+import android.Manifest;
+import android.app.Activity;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.assassin.rongstudy.util.BitMap2File;
 import com.assassin.rongstudy.util.RongUtil;
@@ -12,6 +16,10 @@ import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.StringCallback;
 import com.lzy.okgo.model.HttpHeaders;
 import com.lzy.okgo.model.HttpParams;
+import com.zhy.m.permission.MPermissions;
+import com.zhy.m.permission.PermissionDenied;
+import com.zhy.m.permission.PermissionGrant;
+import com.zhy.m.permission.ShowRequestPermissionRationale;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -21,15 +29,20 @@ import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
 
+    //权限回调所用的回调码
+    public static final int MY_PERMISSONS_REQUEST_CALL_PHONE = 1;
+
     private Button button;
     private Button button1;
     private Button button2;
     private Button button3;
+    private Activity activity;
     @Override
     protected void onCreate(Bundle savedInstanceState) 
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        activity = this;
         HttpParams params = new HttpParams();
         params.put("Account","dingweichen");
         params.put("Password", "Iris198925~");
@@ -112,19 +125,51 @@ public class MainActivity extends AppCompatActivity {
                 RongUtil.startGroup(MainActivity.this,"9527","我是标题");
             }
         });
+        //权限回调
+        if (!MPermissions.shouldShowRequestPermissionRationale(activity, Manifest.permission_group.STORAGE, MY_PERMISSONS_REQUEST_CALL_PHONE)) {
+            MPermissions.requestPermissions(activity,MY_PERMISSONS_REQUEST_CALL_PHONE,Manifest.permission_group.STORAGE);
+        }
 
        // BitMap2File.getFilePath(this, "nima");
+      
+    }
+
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        MPermissions.onRequestPermissionsResult(activity,requestCode,permissions,grantResults);
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+    }
+    @PermissionDenied(MY_PERMISSONS_REQUEST_CALL_PHONE)
+    public void deny()
+    {
+        //继续让他处理
+        Toast.makeText(this, "DENY ACCESS SDCARD!", Toast.LENGTH_SHORT).show();
+    }
+    @PermissionGrant(MY_PERMISSONS_REQUEST_CALL_PHONE)
+    public void grant()
+    {
+        //允许
+
         new Thread(new Runnable() {
             @Override
-            public void run() 
+            public void run()
             {
                 String path;
-                for (int i = 0; i <10 ; i++) 
+                for (int i = 0; i <10 ; i++)
                 {
-                   path= BitMap2File.INSTANCE.getFilePath(MainActivity.this, "20000"+i,"张三"+i);
+                    path= BitMap2File.INSTANCE.getFilePath(MainActivity.this, "20000"+i,"张三"+i);
                     VolleyLog.d("得到的路径为：%s", path);
-                } 
+                }
             }
         }).start();
+        
+    }
+    @ShowRequestPermissionRationale(MY_PERMISSONS_REQUEST_CALL_PHONE)
+    public void showReason()
+    {
+        //说明原因后，还需要继续申请
+        Toast.makeText(activity, "必须获得权限", Toast.LENGTH_SHORT).show();
+        MPermissions.requestPermissions(activity,MY_PERMISSONS_REQUEST_CALL_PHONE,Manifest.permission_group.STORAGE);
     }
 }
