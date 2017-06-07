@@ -7,6 +7,8 @@
     android:orientation="vertical"
     tools:context="com.assassin.rongstudy.MainActivity">
     <Button
+        android:foreground="?selectableItemBackground"
+        android:background="@color/colorAccent"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="启动会话"
