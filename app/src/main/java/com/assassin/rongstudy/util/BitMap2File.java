@@ -69,9 +69,17 @@ public enum BitMap2File
     public  String getFilePath(Context context,String userId,String userName)
     {
         //先判断有无？？
-        File file = new File(getHomeDirectory(), userId+".jpg");
-        if (file.exists() && file.isFile())
-            return file.getPath();
+       // File file = new File(getHomeDirectory(), userId+".jpg");
+        File file1 = context.getExternalFilesDir(null);
+        File file2 = new File(file1, userId + ".jpg");
+       /* try {
+            FileOutputStream fileOutputStream = context.openFileOutput("gm_userlogo_cache/" + userId + ".jpg", Context.MODE_APPEND);
+            
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }*/
+        if (file2.exists() && file2.isFile())
+            return file2.getPath();
         String showUserName=getIconName(userName);
         //设置宽高比均为50dp
         paint.setAntiAlias(true);
@@ -91,12 +99,13 @@ public enum BitMap2File
         canvas.drawText(showUserName,WIDTH / 2 - bounds.width() / 2, baseline,paint);
         //打开文件夹
         try {
-                FileOutputStream outputStream = new FileOutputStream(file);
-                bitmap.compress(Bitmap.CompressFormat.JPEG, 100, outputStream);
-                outputStream.flush();
-                outputStream.close();
-            Log.d("已经完后才能", file.getPath());
-            return file.getPath();
+           // FileOutputStream fileOutputStream = context.openFileOutput(userId + ".jpg", Context.MODE_APPEND);
+                FileOutputStream fileOutputStream = new FileOutputStream(file2);
+                bitmap.compress(Bitmap.CompressFormat.JPEG, 100, fileOutputStream);
+            fileOutputStream.flush();
+            fileOutputStream.close();
+            Log.d("已经完后才能", file2.getPath());
+            return file2.getPath();
         } catch (FileNotFoundException e) 
         {
             e.printStackTrace();

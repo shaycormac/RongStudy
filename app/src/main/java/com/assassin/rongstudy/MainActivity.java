@@ -126,8 +126,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         //权限回调
-        if (!MPermissions.shouldShowRequestPermissionRationale(activity, Manifest.permission_group.STORAGE, MY_PERMISSONS_REQUEST_CALL_PHONE)) {
-            MPermissions.requestPermissions(activity,MY_PERMISSONS_REQUEST_CALL_PHONE,Manifest.permission_group.STORAGE);
+        if (!MPermissions.shouldShowRequestPermissionRationale(activity, Manifest.permission.WRITE_EXTERNAL_STORAGE, MY_PERMISSONS_REQUEST_CALL_PHONE)
+        &&!MPermissions.shouldShowRequestPermissionRationale(activity, Manifest.permission.READ_EXTERNAL_STORAGE, MY_PERMISSONS_REQUEST_CALL_PHONE)) {
+            MPermissions.requestPermissions(activity,MY_PERMISSONS_REQUEST_CALL_PHONE, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE);
         }
 
        // BitMap2File.getFilePath(this, "nima");
@@ -170,6 +171,6 @@ public class MainActivity extends AppCompatActivity {
     {
         //说明原因后，还需要继续申请
         Toast.makeText(activity, "必须获得权限", Toast.LENGTH_SHORT).show();
-        MPermissions.requestPermissions(activity,MY_PERMISSONS_REQUEST_CALL_PHONE,Manifest.permission_group.STORAGE);
+        MPermissions.requestPermissions(activity,MY_PERMISSONS_REQUEST_CALL_PHONE, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE);
     }
 }
